@@ -61,7 +61,7 @@
                     //! $query-> consulta que quiere llamar todos los datos
 
                     while ($row = mysqli_fetch_array($result)) { ?>
-                    //* guarda en la variable row los datos de resultado como un array
+                    <!-- //* guarda en la variable row los datos de resultado como un array -->
                         <tr>
                             <td><?php echo $row['Name_guides']; ?></td>
                             <td><?php echo $row['Direction_guides']; ?></td>
