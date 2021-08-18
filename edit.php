@@ -1,19 +1,30 @@
 <?php
 include('db.php');
+
+//* si se trae un dato por medio del metodo get 
 if (isset($_GET['id'])) {
 
+    //* eset dato del id que se llama por el metodo get  en una variable para poder procesar el dato
     $id = $_GET['id'];
+
+    //TODO: consulta a la base de datos que llamara los datos si esta variale de arriba es igual al uno de los id de la columan idGuides
     $query = "SELECT * FROM guides WHERE idGuides = $id";
 
     $result = mysqli_query($con, $query);
     if (mysqli_num_rows($result) == 1) {
+        //* mysqli_num_rows — Obtiene el número de filas de un resultado
+        //! es decir si el numero de finas que me llam la consulta es 1
         $row = mysqli_fetch_array($result);
+        //* almaceno todos los datos de nuevo en una variable row
         $name = $row['Name_guides'];
         $direction = $row['Direction_guides'];
         $phone = $row['Phone_guides'];
         $date = $row['Datepark_guides'];
-
+        //* almceno los datos que se llaman de la base en nuevas variables
     }
+    //TODO: todo este primero codigo es para tener los datos previos que quiero actualizar y poder visualizar lo en el formulario de actualizacion 
+
+    //! esta parte del codigo es para actualizar los datos por medio del formulario de abajo
     if (isset($_POST['update'])) {
         echo "actualizando";
         $id=$_GET['id'];
@@ -37,6 +48,7 @@ if (isset($_GET['id'])) {
 ?>
 <?php include("includes/header.php"); ?>
 
+<!--Este formulario es el que me permite actualizar los datos-->
 <div class="container p-4">
     <div class="row">
         <div class="mx-auto col-md-4">
