@@ -3,7 +3,7 @@ Este proyecto es un crud basico de php que ingresa, actualiza, borra y deja ver 
 
 ------------
 ### Imagenes de referencia
-![](https://i.ibb.co/kQKskCs/crud.png)
+![](https://i.ibb.co/kQKskCs/crud.png) 
 ![](https://i.ibb.co/8M1KhMq/crud2.png)
 
 ### Modelo entidad relación
