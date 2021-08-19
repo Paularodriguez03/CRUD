@@ -15,7 +15,7 @@ Este proyecto es un crud basico de php que ingresa, actualiza, borra y deja ver 
 | :------------: | :------------: |:------------:
 
 
-|  Xampp |  https://www.apachefriends.org/es/index.html |![](https://cdn.worldvectorlogo.com/logos/xampp.svg)
+|  Xampp |  https://www.apachefriends.org/es/index.html |![max-width: 50%;](https://cdn.worldvectorlogo.com/logos/xampp.svg)
 | PHP  | https://www.php.net/docs.php  | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png)
 | Bootstrap  | https://getbootstrap.com  |![](https://seocom.agency/wp-content/uploads/2019/02/bootstrap-stack.png)
 | Mysql  | https://www.mysql.com  |![](https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png)
