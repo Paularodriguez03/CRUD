@@ -12,7 +12,9 @@ Este proyecto es un crud basico de php que ingresa, actualiza, borra y deja ver 
 
 ## Lenguajes y servicios
 |  Lenguaje |  Documentacion | Imagen
-| :------------: | :------------: |
+| :------------: | :------------: |:------------:
+
+
 |  Xampp |  https://www.apachefriends.org/es/index.html |![](https://cdn.worldvectorlogo.com/logos/xampp.svg)
 | PHP  | https://www.php.net/docs.php  | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png)
 | Bootstrap  | https://getbootstrap.com  |![](https://seocom.agency/wp-content/uploads/2019/02/bootstrap-stack.png)
